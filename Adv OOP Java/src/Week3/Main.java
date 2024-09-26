@@ -1,4 +1,10 @@
+package Week3;
+
 public class Main {
+
+    // Here we change directly the attribute
+    // ArrayList we use get and set (encapsulation) - It's safer, and we have more control of the attributes.
+
     public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
 

@@ -1,3 +1,4 @@
+package Week2;
 import java.util.Scanner;
 
 // a + b = 8
@@ -5,7 +6,7 @@ import java.util.Scanner;
 // c - d = 6
 // b + d = 8
 
-public class Challenge {
+public class Challenge1 {
 
     public static void main(String[] args) {
 

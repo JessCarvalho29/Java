@@ -1,6 +1,8 @@
+package Week3;
 import java.util.LinkedList;
 
-public class Challenge {
+
+public class Challenge2 {
     // If a point A wants to reach exactly to point Band the distance between them is 8 DF units and
     // in each step point A moves half the distance to point B (A minimum step is 1 DF unit).
     // After how many steps will A reach B? How many steps will take if the distance was 2048 DF units?

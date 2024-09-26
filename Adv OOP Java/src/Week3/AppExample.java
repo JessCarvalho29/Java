@@ -1,8 +1,9 @@
+package Week3;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class App {
+public class AppExample {
     public static void main(String[] args) {
        
         List<String> fruits = new ArrayList<>();

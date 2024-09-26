@@ -1,3 +1,4 @@
+package Week3;
 import java.util.ArrayList;
 
 // class arrayList, creating an instance called fruits
@@ -5,7 +6,7 @@ import java.util.ArrayList;
 
 // Attribute x Method
 
-public class ArrayList2 {
+public class ArrayListExample {
     public static void main (String[] args) {
         // Create an ArrayList
         ArrayList<String> fruits = new ArrayList<>();

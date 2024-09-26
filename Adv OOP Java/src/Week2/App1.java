@@ -1,7 +1,8 @@
+package Week2;
 import java.sql.*;
 import java.io.FileWriter;
 
-public class App {
+public class App1 {
     public static void main(String[] args) throws Exception {
         
         try {

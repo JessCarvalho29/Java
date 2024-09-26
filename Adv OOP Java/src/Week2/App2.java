@@ -1,3 +1,4 @@
+package Week2;
 import java.sql.*;
 
 public class App2 {

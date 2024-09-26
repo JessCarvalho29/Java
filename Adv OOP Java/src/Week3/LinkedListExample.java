@@ -1,6 +1,7 @@
+package Week3;
 import java.util.LinkedList;
 
-public class linkedlist {
+public class LinkedListExample {
     public static void main(String[] args) {
 
         LinkedList<String> cities = new LinkedList<>();

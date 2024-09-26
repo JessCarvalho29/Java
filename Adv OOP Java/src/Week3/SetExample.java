@@ -1,10 +1,13 @@
-import java.util.Set;
+package Week3;
 import java.util.HashSet;
 
-public class Sett {
+public class SetExample {
     public static void main(String[] args) {
+
+        // Set: parent - hashset: child
+        // you can creat a parent and a child because of inheritance
     
-        Set<String> names = new HashSet<>();
+        java.util.Set<String> names = new HashSet<>();
 
         names.add("Alice");
         names.add("Bob");
@@ -25,3 +28,5 @@ public class Sett {
         }
     }
 }
+
+// Its fast, but it's not optimal choose to connect with the database
