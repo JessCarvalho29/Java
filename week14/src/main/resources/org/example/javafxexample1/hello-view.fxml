@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0"
+      xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/17.0.2-ea"
+      fx:controller="org.example.javafxexample1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label style="-fx-font-size: 18px;"
+           text="Registration Form" />
+
+    <HBox spacing="10">
+        <Label text="Name:" />
+        <TextField fx:id="nameField" />
+<!--        <Label fx:id="errorName"/>-->
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Contact Number:" />
+        <TextField fx:id="contactField" promptText="Enter contact number" />
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Country:" />
+        <ComboBox fx:id="countryComboBox" promptText="Select Country">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="USA" />
+                    <String fx:value="Canada" />
+                    <String fx:value="UK" />
+                    <String fx:value="Australia" />
+                    <String fx:value="India" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Gender:" />
+        <RadioButton fx:id="maleRadio" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+        </RadioButton>
+        <RadioButton fx:id="femaleRadio" text="Female" toggleGroup="$gender" />
+    </HBox>
+
+    <Button onAction="#handleSubmitButtonAction" text="Submit" />
+</VBox>
