@@ -117,15 +117,13 @@ public class TimeComplexity {
             System.out.println("Hash Map remove items duration: " + durationlHashMapRemove);
 
             startTimeArray = System.nanoTime();
-            index = 0;
             String[] newArray = new String[array.length-1];
             for(int i=0, k=0; i<array.length; i++) {
-                if (index < newArray.length) {
+                if (k < newArray.length) {
                     if (!Objects.equals(array[i], "Student50")) {
                         newArray[k] = array[i];
                         k++;
                     }
-                    index++;
                 }
             }
             endTimeArray = System.nanoTime();
